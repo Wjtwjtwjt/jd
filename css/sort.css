@@ -1,0 +1,145 @@
+.jd-sort{
+	width: 100%;
+	margin: 0 auto;
+}
+/* 搜索栏 */
+.jd-sort .jd-search{
+	width: 100%;
+	height: 44px;
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url(../images/header-bg.png);
+	background-size: 1px 44px;
+	background-repeat: repeat-x;
+}
+
+.jd-sort .search-box {
+	width: 100%;
+	height: 100%;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+.jd-sort .search-box input{
+	width: 100%;
+	height: 30px;
+	border: 1px solid #ccc;
+	margin-top: 8px;
+	border-radius: 5px;
+	padding: 0 5px;
+	box-sizing: border-box;
+
+}
+.jd-sort .jd-search .back{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 44px;
+	padding: 10px 11px;
+	box-sizing: border-box;
+	background-image: url(../images/jd-sprites.png);
+	background-size: 200px 200px;
+	background-position: -10px 12px;
+	background-clip: content-box;
+}
+.jd-sort .jd-search .menu{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 44px;
+	height: 44px;
+	padding: 10px 11px;
+	box-sizing: border-box;
+	background-image: url(../images/jd-sprites.png);
+	background-size: 200px 200px;
+	background-position: -50px 12px;
+	background-clip: content-box;
+}
+main {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 45px;
+	box-sizing: border-box;
+}
+.jd-menu{
+	width: 90px;
+	/* height: 100%; */
+	overflow: hidden;
+}
+.jd-menu ul {
+	width: 100%;
+}
+
+.jd-menu li {
+  width: 100%;
+  height: 50px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #f3f4f6;
+  box-sizing: border-box;
+}
+.jd-menu .active{
+	border-right: none;
+	background: #fff;
+	color: red;
+	font-weight: normal;
+}
+.jd-c{
+	flex: 1;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	overflow-y: auto;
+}
+.jd-c .hot-w h4,.jd-c .hot-g h4{
+ font-size: 12px;
+ color: #666;
+ padding-top: 20px;
+ padding-bottom: 10px;
+}
+.jd-c .hot-w ul {
+	width: 100%;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+}
+.jd-c .hot-w li {
+	width: 33.333%;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.jd-c .hot-g ul {
+	width: 100%;
+	overflow: hidden;
+}
+.jd-c .hot-g li {
+	width: 33.333%;
+	float: left;
+}
+.jd-c .hot-g li a{
+	width: 100%;
+}
+.jd-c li img{
+	width: 100%;
+}
+.jd-c .hot-g li span{
+	display: block;
+	text-align: center;
+}
